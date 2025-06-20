@@ -8,7 +8,7 @@ import asyncio
 from crud.projects import get_project_by_id
 from upload_file_superbase import upload_df_to_supabase_async
 from utility.ai_generated_ice_breakers import generate_ice_breakers_chain
-from utility.batching import cold_email_batcher, cold_email_batcher_advanced
+from utility.batching import cold_email_batcher_advanced
 from utility.company_linkedIn_data import get_company_linkedin_data
 from utility.email_verifier import lead_email_verifier
 from utility.exa_webite_summary import get_website_summary
