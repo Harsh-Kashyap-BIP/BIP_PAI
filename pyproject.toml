@@ -1,0 +1,23 @@
+[project]
+name = "personalized-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "asyncpg>=0.30.0",
+    "exa-py>=1.14.6",
+    "fastapi>=0.115.12",
+    "httpx>=0.28.1",
+    "langchain>=0.3.25",
+    "langchain-community>=0.3.25",
+    "openai>=1.86.0",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.0",
+    "psycopg2-binary>=2.9.10",
+    "pydantic>=2.11.5",
+    "python-jose[cryptography]>=3.5.0",
+    "requests>=2.32.4",
+    "sqlalchemy>=2.0.41",
+    "uvicorn>=0.34.3",
+]
